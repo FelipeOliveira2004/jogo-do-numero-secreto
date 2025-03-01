@@ -59,7 +59,7 @@ function gerarNumeroAleatorio() {
         return gerarNumeroAleatorio();
     } else {
         listaDeNumerosSorteados.push(numeroEscolhido);
-        return listaDeNumerosSorteados;
+        return numeroEscolhido;
     }
 }
 
